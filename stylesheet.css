@@ -1,0 +1,75 @@
+body {
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+}
+header{
+  background-color: #000080;
+  color:white;
+  background-size:cover;
+  height:80px;
+
+}
+.header-logo{
+  float:left;
+  font-size:20px;
+  padding:25px 20px;
+}
+
+.header-list{
+  float:right;
+  padding:30px 20px;
+  font-size:12px;
+}
+
+.header-list li{
+  list-style:none;
+}
+
+.body{
+  padding:30px 80px;
+}
+.title{
+  font-size:100px;
+  padding:80px;
+  margin:0 auto;
+  width:800px;
+  color:#FF0080;
+  background-image:url(IMG-0103.jpg);
+}
+
+.who{
+  background-color:#008000;
+  border:3px solid #80003E;
+  font-size:40px;
+  margin-bottom:10px;
+}
+
+.profile{
+  background-color:#FFFFCC;
+  border:2px solid #80003E;
+  background-size:cover;
+  font-size:20px;
+  margin-bottom:30px;
+}
+
+.link{
+  background-color:#008000;
+  border:3px solid #80003E;
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+.blog-logo a{
+  display:inline-block;
+}
+
+.blog-logo img{
+  float:left;
+  margin-right:20px;
+  margin-bottom:30px;
+  width:250px;
+  box-shadow:5px 5px;
+}
+
+.blog-logo img:active{
+  box-shadow:none;
+}
